@@ -5,12 +5,12 @@ bind::server::conf { '/etc/named.conf':
     'rfc1918' => [ '10/8', '172.16/12', '192.168/16' ],
   },
   masters => {
-    'mymasters' => [ '192.0.2.1', '198.51.100.1' ],
+    'mymasters' => [ '10.55.50.0/24' ],
   },
   zones => {
-    'example.com' => [
+    'prod1.whispir.co.nz' => [
       'type master',
-      'file "example.com"',
+      'file "prod1.whispir.co.nz"',
     ],
     'example.org' => [
       'type slave',
