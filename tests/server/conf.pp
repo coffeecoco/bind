@@ -1,25 +1,18 @@
-# Taken from the "Sample Usage :"
-include bind::server
+include bind
 bind::server::conf { '/etc/named.conf':
-  acls => {
-    'rfc1918' => [ '10/8', '172.16/12', '192.168/16' ],
-  },
-  masters => {
-    'mymasters' => [ '10.55.50.0/24' ],
-  },
-  zones => {
-    'prod1.whispir.co.nz' => [
+  listen_on_addr    => [ 'any' ],
+  listen_on_v6_addr => [ 'any' ],
+  forwarders        => [ '8.8.8.8', '8.8.4.4' ],
+  allow_query       => [ 'localnets' ],
+  zones             => {
+    'myzone.lan' => [
       'type master',
-      'file "prod1.whispir.co.nz"',
+      'file "myzone.lan"',
     ],
-    'example.org' => [
-      'type slave',
-      'file "slaves/example.org"',
-      'masters { mymasters; }',
+    '1.168.192.in-addr.arpa' => [
+      'type master',
+      'file "1.168.192.in-addr.arpa"',
     ],
   },
-  includes => [
-    '/etc/myzones.conf',
-  ],
 }
 
