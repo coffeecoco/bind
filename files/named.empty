@@ -9,3 +9,76 @@ $TTL 3H
 	A	    127.0.0.1
 	AAAA	::1
 
+whispir.co.nz. 300 IN A 54.252.89.136
+whispir.co.nz. 3600 IN MX 10 mail.whispir.co.nz.
+whispir.co.nz. 3600 IN MX 10 mail2.whispir.co.nz.
+whispir.co.nz. 172800 IN NS ns-782.awsdns-33.net.
+whispir.co.nz. 172800 IN NS ns-33.awsdns-04.com.
+whispir.co.nz. 172800 IN NS ns-1277.awsdns-31.org.
+whispir.co.nz. 172800 IN NS ns-2038.awsdns-62.co.uk.
+whispir.co.nz. 900 IN SOA ns-782.awsdns-33.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+api.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+api.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+company.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+company.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+list.company.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+list.company.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+team.company.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+team.company.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+contact.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+contact.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+team.contact.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+team.contact.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+dev.whispir.co.nz. 300 IN A 203.206.164.243
+eapi.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+eapi.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+external.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+external.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+list.external.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+list.external.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+team.external.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+team.external.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+mail.whispir.co.nz. 3600 IN A 203.191.201.74
+mail2.whispir.co.nz. 3600 IN A 203.42.25.245
+monitoring.whispir.co.nz. 3600 IN A 203.97.23.244
+ns1.whispir.co.nz. 300 IN A 203.97.23.241
+ns2.whispir.co.nz. 300 IN A 203.97.23.242
+ns3.whispir.co.nz. 300 IN A 203.97.86.129
+osom.whispir.co.nz. 300 IN A 203.97.23.251
+personal.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+personal.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+list.personal.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+list.personal.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+team.personal.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+team.personal.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+project.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+project.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+list.project.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+list.project.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+team.project.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+team.project.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+secure.whispir.co.nz. 300 IN A 203.97.23.251
+*.secure.whispir.co.nz. 300 IN A 203.97.23.252
+secure1.whispir.co.nz. 300 IN A 203.97.23.253
+secure1.whispir.co.nz. 300 IN MX 10 mail.whispir.co.nz.
+*.secure1.whispir.co.nz. 300 IN A 203.97.86.140
+securedr.whispir.co.nz. 300 IN A 203.97.86.139
+*.securedr.whispir.co.nz. 300 IN A 203.97.86.140
+service.whispir.co.nz. 300 IN A 203.97.23.249
+service.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+service.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+mail.service.whispir.co.nz. 300 IN A 203.97.23.241
+mail2.service.whispir.co.nz. 300 IN A 203.97.86.129
+sms.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+sms.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+smsc.whispir.co.nz. 300 IN A 203.97.23.242
+smscdr.whispir.co.nz. 300 IN A 203.97.86.130
+smsgate.whispir.co.nz. 300 IN A 203.97.23.245
+sync.whispir.co.nz. 300 IN A 203.97.23.241
+sync22.whispir.co.nz. 300 IN A 116.240.201.177
+user.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+user.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+team.user.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+team.user.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+www.whispir.co.nz. 300 IN CNAME whispir.co.nz
+www2.whispir.co.nz. 300 IN A 54.252.89.136

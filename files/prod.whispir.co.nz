@@ -1,0 +1,74 @@
+$TTL 3H
+@       IN SOA  @ rname.invalid. (
+                                        0       ; serial
+                                        1D      ; refresh
+                                        1H      ; retry
+                                        1W      ; expire
+                                        3H )    ; minimum
+        NS          @
+        A           127.0.0.1
+        AAAA    ::1
+
+prod1.whispir.co.nz. 300 IN A 54.252.89.136
+prod1.whispir.co.nz. 3600 IN MX 10 mail.whispir.co.nz.
+prod1.whispir.co.nz. 3600 IN MX 10 mail2.whispir.co.nz.
+api.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+api.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+cdn.prod1.whispir.co.nz. 300 IN CNAME wac.4D4E.edgecastcdn.net.
+company.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+company.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+list.company.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+list.company.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+team.company.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+team.company.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+contact.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+contact.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+team.contact.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+team.contact.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+dev.prod1.whispir.co.nz. 300 IN A 203.206.164.243
+eapi.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+eapi.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+external.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+external.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+list.external.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+list.external.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+team.external.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+team.external.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+mail.prod1.whispir.co.nz. 3600 IN A 203.173.40.191
+mail2.prod1.whispir.co.nz. 3600 IN A 203.42.25.245
+monitoring.prod1.whispir.co.nz. 3600 IN A 203.97.23.244
+osom.prod1.whispir.co.nz. 300 IN A 203.97.86.139
+personal.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+personal.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+list.personal.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+list.personal.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+team.personal.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+team.personal.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+project.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+project.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+list.project.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+list.project.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+team.project.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+team.project.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+secure.prod1.whispir.co.nz. 300 IN A 203.97.86.139
+*.secure.prod1.whispir.co.nz. 300 IN A 203.97.86.140
+cdn.secure.prod1.whispir.co.nz. 300 IN CNAME wac.4D4E.edgecastcdn.net.
+secure1.prod1.whispir.co.nz. 300 IN A 203.97.86.141
+secure1.prod1.whispir.co.nz. 3600 IN MX 10 mail.whispir.co.nz.
+*.secure1.prod1.whispir.co.nz. 300 IN A 203.97.86.142
+service.prod1.whispir.co.nz. 300 IN A 203.97.86.137
+service.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+service.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+mail.service.prod1.whispir.co.nz. 300 IN A 203.97.86.129
+mail2.service.prod1.whispir.co.nz. 300 IN A 203.97.23.241
+sms.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+sms.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+smsc.prod1.whispir.co.nz. 300 IN A 203.97.86.130
+smsgate.prod1.whispir.co.nz. 300 IN A 203.97.86.133
+sync.prod1.whispir.co.nz. 300 IN A 203.97.86.129
+user.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+user.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+team.user.prod1.whispir.co.nz. 300 IN MX 10 mail.service.whispir.co.nz.
+team.user.prod1.whispir.co.nz. 300 IN MX 20 mail2.service.whispir.co.nz.
+www.prod1.whispir.co.nz. 300 IN CNAME whispir.co.nz
+blah.prod1.whispir.co.nz. 300 IN A 1.1.1.1
